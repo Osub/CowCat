@@ -153,6 +153,9 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Zizaco\Entrust\EntrustServiceProvider::class,
         Orangehill\Iseed\IseedServiceProvider::class,
+        Overtrue\LaravelWechat\ServiceProvider::class,
+        Dingo\Api\Provider\LaravelServiceProvider::class,
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
     ],
 
     /*
@@ -205,6 +208,9 @@ return [
         'Form'      => Collective\Html\FormFacade::class,
         'Html'      => Collective\Html\HtmlFacade::class,
         'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
+        'Wechat'    => Overtrue\LaravelWechat\Facade::class,
+        'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
+        'JWTFactory'=> Tymon\JWTAuth\Facades\JWTFactory::class,
     ],
 
 ];

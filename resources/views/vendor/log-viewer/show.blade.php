@@ -158,7 +158,7 @@
                                 <thead>
                                     <tr>
                                         <th>ENV</th>
-                                        <th style="width: 120px;">Level</th>
+                                        <th style="width: 1900px;">Level</th>
                                         <th style="width: 65px;">Time</th>
                                         <th>Header</th>
                                         <th class="text-right">Actions</th>
@@ -170,7 +170,7 @@
                                             <td>
                                                 <span class="label label-env">{{ $entry->env }}</span>
                                             </td>
-                                            <td>
+                                            <td style="width: 1900px;">
                                                 <span class="level level-{{ $entry->level }}">
                                                     {!! $entry->level() !!}
                                                 </span>
